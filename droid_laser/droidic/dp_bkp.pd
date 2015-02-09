@@ -1,0 +1,39 @@
+#N canvas 890 406 506 341 10;
+#X obj 271 199 proto;
+#X obj 3 116 numberbox 50 20 n5;
+#X obj 56 116 numberbox 50 20 n6;
+#X obj 109 116 numberbox 50 20 n7;
+#X obj 162 116 numberbox 50 20 n8;
+#X obj 3 139 numberbox 50 20 n1;
+#X obj 56 139 numberbox 50 20 n2;
+#X obj 109 139 numberbox 50 20 n3;
+#X obj 162 139 numberbox 50 20 n4;
+#X obj 3 56 tgl 50 0 ena5 empty empty 17 7 0 10 -262144 -1 -1 1 1;
+#X obj 56 56 tgl 50 0 ena6 empty empty 17 7 0 10 -262144 -1 -1 1 1
+;
+#X obj 109 56 tgl 50 0 ena7 empty empty 17 7 0 10 -262144 -1 -1 1 1
+;
+#X obj 162 56 tgl 50 0 ena8 empty empty 17 7 0 10 -262144 -1 -1 1 1
+;
+#X obj 3 3 tgl 50 0 ena1 empty empty 17 7 0 10 -262144 -1 -1 1 1;
+#X obj 56 3 tgl 50 0 ena2 empty empty 17 7 0 10 -262144 -1 -1 1 1;
+#X obj 109 3 tgl 50 0 ena3 empty empty 17 7 0 10 -262144 -1 -1 1 1
+;
+#X obj 162 3 tgl 50 0 ena4 empty empty 17 7 0 10 -262144 -1 -1 1 1
+;
+#X obj 13 183 numberbox 70 30 inc;
+#X obj 14 220 numberbox 70 30 val;
+#X obj 305 2 tgl 50 0 add empty add 7 25 0 20 -262144 -1 -1 0 1;
+#X obj 6 287 hsl 469 30 0 127 0 0 infi injump 8_8_8_8_8_8_8_8_8_8_8_8
+80 15 0 20 -262144 -1 -1 24494 1;
+#X obj 305 55 tgl 50 0 flip empty flip 1 25 0 20 -262144 -1 -1 1 1
+;
+#X obj 305 108 bng 50 250 50 0 getback empty GB 13 25 0 20 -262144
+-1 -1;
+#X obj 266 4 vsl 30 151 0 2 0 0 lg empty empty 0 -9 0 10 -262144 -1
+-1 7300 1;
+#X obj 364 4 vsl 30 151 0 2 0 0 rg empty empty 0 -9 0 10 -262144 -1
+-1 5400 1;
+#X obj 447 5 vsl 30 276 0.001 0.1 0 0 inc empty empty 0 -9 0 10 -262144
+-1 -1 200 1;
+#X coords 0 -1 1 1 480 320 1 0 0;

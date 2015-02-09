@@ -1,0 +1,47 @@
+#N canvas 398 236 506 341 10;
+#X obj 386 241 proto;
+#X obj 3 51 tgl 50 0 ena1 empty empty 17 7 0 10 -262144 -1 -1 0 1;
+#X obj 56 51 tgl 50 0 ena2 empty empty 17 7 0 10 -262144 -1 -1 0 1
+;
+#X obj 109 51 tgl 50 0 ena3 empty empty 17 7 0 10 -262144 -1 -1 0 1
+;
+#X obj 162 51 tgl 50 0 ena4 empty empty 17 7 0 10 -262144 -1 -1 0 1
+;
+#X obj 3 -2 tgl 50 0 ena5 empty empty 17 7 0 10 -262144 -1 -1 0 1;
+#X obj 56 -2 tgl 50 0 ena6 empty empty 17 7 0 10 -262144 -1 -1 0 1
+;
+#X obj 109 -2 tgl 50 0 ena7 empty empty 17 7 0 10 -262144 -1 -1 0 1
+;
+#X obj 162 -2 tgl 50 0 ena8 empty empty 17 7 0 10 -262144 -1 -1 0 1
+;
+#X obj 305 2 tgl 50 0 add empty add 7 25 0 20 -262144 -1 -1 0 1;
+#X obj 6 274 hsl 469 50 0 43 0 0 infi injump 8_8_8_8_8_8_8_8_8_8_8_8
+80 15 0 20 -262144 -1 -1 0 1;
+#X obj 305 55 tgl 50 0 flip empty flip 1 25 0 20 -262144 -1 -1 0 1
+;
+#X obj 305 108 bng 50 250 50 0 getback empty GB 13 25 0 20 -262144
+-1 -1;
+#X obj 266 4 vsl 30 151 0 3 0 0 lg empty empty 0 -9 0 10 -262144 -1
+-1 0 1;
+#X obj 364 4 vsl 30 151 0 3 0 0 rg empty empty 0 -9 0 10 -262144 -1
+-1 0 1;
+#X obj 427 5 vsl 50 260 0.0001 0.4 1 0 inc empty empty 0 -9 0 10 -262144
+-1 -1 0 1;
+#X obj 305 161 bng 50 250 50 0 new empty new 8 25 0 20 -262144 -1 -1
+;
+#X text 268 93 gain;
+#X text 364 86 gain;
+#X text 424 178 increment;
+#X text 141 257 <---- endless slider ---->;
+#X obj 7 235 nbx 5 30 -1e+37 1e+37 0 0 empty nbox empty 0 -8 0 20 -262144
+-1 -1 0 256;
+#X obj 3 108 bng 50 250 50 0 tap empty tap 17 7 0 10 -262144 -1 -1
+;
+#X obj 56 108 tgl 50 0 go empty go 17 7 0 10 -262144 -1 -1 0 1;
+#X obj 6 162 hsl 250 30 -2 2 0 0 stren empty stren -2 10 0 20 -262144
+-1 -1 0 1;
+#X obj 6 195 hsl 250 30 0 1500 0 0 btime empty time -2 5 0 20 -262144
+-1 -1 0 1;
+#X obj 121 109 bng 50 250 50 0 empty clk clk 17 7 0 10 -262144 -1 -1
+;
+#X coords 0 341 1 340 480 320 0;
